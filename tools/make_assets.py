@@ -617,8 +617,13 @@ def asset_typing(theme: str, data: dict) -> tuple[str, int]:
             kt[1] = min(kt[0] + 0.0005, 1.0)
         ktv = ";".join(n(v) for v in kt)
         p.append(f'<clipPath id="tc{i}">')
+        # All five lines are drawn at the same spot -- SMIL turns this into a
+        # one-line ticker, revealing each in turn. So the static fallback must
+        # be ONE line in full: left at 0 the card goes blank without SMIL, and
+        # opened up for all five they overprint each other into noise.
+        base_w = wid if i == 0 else 0
         p.append(
-            f'<rect x="{n(X0)}" y="0" width="0" height="{n(H)}">'
+            f'<rect x="{n(X0)}" y="0" width="{n(base_w)}" height="{n(H)}">'
             f'<animate attributeName="width" dur="{n(total)}s" '
             f'repeatCount="indefinite" calcMode="linear" keyTimes="{ktv}" '
             f'values="0;0;{n(wid)};{n(wid)};0;0"/></rect></clipPath>'
