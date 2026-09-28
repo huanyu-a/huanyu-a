@@ -150,9 +150,13 @@ STACK_ROWS = [
 ]
 
 # (text, light colour, dark colour)
+# The two amber/mint light values are a step deeper than the theme accents on
+# purpose: each label sits on a 10% tint of its *own* hue, and that pill eats
+# ~0.4 of the ratio, which dropped the plain theme mint to 3.3:1 -- under WCAG
+# AA at this text size. All four now clear 4.5:1 against their own pill.
 TAGS = [
-    ("独立开发者", "#B45309", "#FBBF24"),
-    ("医疗健康 · SEO", "#0D9488", "#2DD4BF"),
+    ("独立开发者", "#92400E", "#FBBF24"),
+    ("医疗健康 · SEO", "#115E59", "#2DD4BF"),
     ("本地优先", "#1D4ED8", "#60A5FA"),
     ("信息管线", "#7C3AED", "#A78BFA"),
 ]
