@@ -93,9 +93,14 @@ python tools/render_preview.py --theme dark --width 880
 - **只展示非 fork 的原创仓库。** `wechat-article-bot`、`GEOFlow`、`panseek`、
   `NavHub` 等是从别人项目 fork 来的（描述也是从上游继承的），
   算进「原创项目」不诚实。`own_repos` 和 `total_stars` 都只统计原创仓库。
-- **本仓库自己（用户名同名仓库）也排除在 `own_repos` / 语言统计 / `latest_push` 之外。**
-  它是个 meta 仓库，不是作品；而且 Action 每天都会往这里提交，
-  算进去的话「最近提交」会永远显示成今天。抓取脚本按「仓库名 == 用户名」识别它。
+- **本仓库自己（用户名同名仓库）整个剔除：不进 `own_repos` / 语言统计 /
+  `latest_push`，也不进 `repos` 列表。** 它是个 meta 仓库，不是作品；
+  而且 Action 每天都会往这里提交，算进去的话「最近提交」会永远显示成今天。
+  从 `repos` 里剔除还有第二层原因：那份列表带着每个仓库的 `pushed_at`，
+  而本仓库的 `pushed_at` 会随 Action 自己的提交一起变 —— 留在数据里就构成自引用回流：
+  每次运行都读到「有变化」，于是每次都提交一次，流水线永远静不下来。
+  `write_if_changed()` 的幂等只有在数据不含「会被自己改写的东西」时才成立。
+  抓取脚本按「仓库名 == 用户名」识别它。
 
 ## 权限
 

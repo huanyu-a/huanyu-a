@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T04:11:04+00:00",
+  "generated_at": "2026-09-28T04:16:36+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -192,27 +192,6 @@
       "archived": false,
       "created_at": "2026-05-22T02:27:46Z",
       "pushed_at": "2026-06-30T02:43:41Z"
-    },
-    {
-      "name": "huanyu-a",
-      "description": "个人主页 · 琥珀工坊主题｜19 个素材全部自绘且深浅色各一套，零第三方图床，由 GitHub Action 每日重新抓取数据并重绘",
-      "html_url": "https://github.com/huanyu-a/huanyu-a",
-      "homepage": "",
-      "language": "Python",
-      "languages": {},
-      "stars": 0,
-      "forks": 0,
-      "topics": [
-        "github-actions",
-        "github-profile",
-        "profile-readme",
-        "python",
-        "svg"
-      ],
-      "fork": false,
-      "archived": false,
-      "created_at": "2026-09-28T04:01:46Z",
-      "pushed_at": "2026-09-28T04:10:53Z"
     },
     {
       "name": "toolbox",

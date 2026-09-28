@@ -35,11 +35,16 @@ DEFAULT_LOGIN = "huanyu-a"
 EXCLUDE_FROM_STATS = {"Administrative-divisions-of-China"}
 EXCLUDE_FROM_LANGUAGES = {"Administrative-divisions-of-China", "ai-docs-mirror"}
 
-# The profile repo itself (login == repo name) is a meta-repo and is excluded
-# from the same places, by name, in collect(). Counting it would:
+# The profile repo itself (login == repo name) is a meta-repo and is dropped
+# entirely in collect() -- it feeds neither the numbers nor the repo list.
+# Counting it would:
 #   * inflate own_repos with the README repo rather than an actual project
 #   * pull the tooling's Python into the language bar
 #   * pin latest_push to "today" forever, because the daily Action commits here
+# and *keeping it in `repos` breaks idempotency*: the Action commits into that
+# repo on every refresh that changes anything, which moves its pushed_at, which
+# write_if_changed then reads as a change -- so the pipeline could never settle
+# and would commit a "refresh" on every single run.
 
 
 def resolve_token() -> str | None:
@@ -100,9 +105,9 @@ def collect(get, login: str) -> dict:
 
     for repo in repos:
         name = repo["name"]
-        self_repo = name == login  # the profile README repo
-        counted = (not repo["fork"] and name not in EXCLUDE_FROM_STATS
-                   and not self_repo)
+        if name == login:  # the profile README repo, see the note at the top
+            continue
+        counted = not repo["fork"] and name not in EXCLUDE_FROM_STATS
         lang_bytes: dict[str, int] = {}
         if counted and name not in EXCLUDE_FROM_LANGUAGES:
             # Cheap enough at this account size; a per-repo language split is
@@ -133,9 +138,7 @@ def collect(get, login: str) -> dict:
 
     own = [
         r for r in repo_rows
-        if not r["fork"]
-        and r["name"] not in EXCLUDE_FROM_STATS
-        and r["name"] != login
+        if not r["fork"] and r["name"] not in EXCLUDE_FROM_STATS
     ]
     total_stars = sum(r["stars"] for r in own)
     latest_push = max((r["pushed_at"] or "" for r in own), default="")
