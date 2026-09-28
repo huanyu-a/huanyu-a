@@ -1,0 +1,57 @@
+name: Refresh profile assets
+
+# Re-scrapes the GitHub API and redraws every SVG, so the numbers on the
+# profile never go stale. Commits only when the output actually differs.
+
+on:
+  schedule:
+    # 15:30 Asia/Shanghai (07:30 UTC)
+    - cron: "30 7 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/**"
+      - ".github/workflows/update-assets.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-assets
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch profile data
+        env:
+          # scoped to this repo; every endpoint used here is public, so the
+          # short-lived Actions token is enough -- no PAT required
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/fetch_data.py
+
+      - name: Draw assets
+        run: python tools/make_assets.py
+
+      - name: Render README
+        run: python tools/make_readme.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "no changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: refresh profile assets"
+          git push
