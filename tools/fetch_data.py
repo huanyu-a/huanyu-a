@@ -35,6 +35,12 @@ DEFAULT_LOGIN = "huanyu-a"
 EXCLUDE_FROM_STATS = {"Administrative-divisions-of-China"}
 EXCLUDE_FROM_LANGUAGES = {"Administrative-divisions-of-China", "ai-docs-mirror"}
 
+# The profile repo itself (login == repo name) is a meta-repo and is excluded
+# from the same places, by name, in collect(). Counting it would:
+#   * inflate own_repos with the README repo rather than an actual project
+#   * pull the tooling's Python into the language bar
+#   * pin latest_push to "today" forever, because the daily Action commits here
+
 
 def resolve_token() -> str | None:
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
@@ -94,7 +100,9 @@ def collect(get, login: str) -> dict:
 
     for repo in repos:
         name = repo["name"]
-        counted = not repo["fork"] and name not in EXCLUDE_FROM_STATS
+        self_repo = name == login  # the profile README repo
+        counted = (not repo["fork"] and name not in EXCLUDE_FROM_STATS
+                   and not self_repo)
         lang_bytes: dict[str, int] = {}
         if counted and name not in EXCLUDE_FROM_LANGUAGES:
             # Cheap enough at this account size; a per-repo language split is
@@ -123,7 +131,12 @@ def collect(get, login: str) -> dict:
 
     repo_rows.sort(key=lambda r: (r["stars"], r["pushed_at"] or ""), reverse=True)
 
-    own = [r for r in repo_rows if not r["fork"] and r["name"] not in EXCLUDE_FROM_STATS]
+    own = [
+        r for r in repo_rows
+        if not r["fork"]
+        and r["name"] not in EXCLUDE_FROM_STATS
+        and r["name"] != login
+    ]
     total_stars = sum(r["stars"] for r in own)
     latest_push = max((r["pushed_at"] or "" for r in own), default="")
 

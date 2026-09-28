@@ -86,13 +86,16 @@ python tools/render_preview.py --theme dark --width 880
 
 ## 数据口径
 
-两处刻意的取舍，都在 `tools/fetch_data.py` 里注释说明了：
+三处刻意的取舍，都在 `tools/fetch_data.py` 里注释说明了：
 
 - **`ai-docs-mirror` 排除在语言统计之外。** 它是第三方文档的镜像，
   有约 130 MB 的 HTML，不排除的话语言构成条会变成「HTML 93.6%」一根柱子。
 - **只展示非 fork 的原创仓库。** `wechat-article-bot`、`GEOFlow`、`panseek`、
   `NavHub` 等是从别人项目 fork 来的（描述也是从上游继承的），
   算进「原创项目」不诚实。`own_repos` 和 `total_stars` 都只统计原创仓库。
+- **本仓库自己（用户名同名仓库）也排除在 `own_repos` / 语言统计 / `latest_push` 之外。**
+  它是个 meta 仓库，不是作品；而且 Action 每天都会往这里提交，
+  算进去的话「最近提交」会永远显示成今天。抓取脚本按「仓库名 == 用户名」识别它。
 
 ## 权限
 
