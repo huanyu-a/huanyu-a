@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T02:52:57+00:00",
+  "generated_at": "2026-09-28T04:02:07+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -9,18 +9,18 @@
   "created_at": "2024-07-19T08:35:09Z",
   "followers": 1,
   "following": 1,
-  "public_repos": 33,
+  "public_repos": 34,
   "stats": {
-    "own_repos": 11,
+    "own_repos": 12,
     "total_stars": 24,
-    "latest_push": "2026-09-25T04:03:40Z"
+    "latest_push": "2026-09-28T04:01:53Z"
   },
   "languages": {
+    "Python": 557756,
     "TypeScript": 2679326,
     "Vue": 800106,
     "CSS": 1085869,
     "JavaScript": 2104588,
-    "Python": 485458,
     "Shell": 9393,
     "Dockerfile": 5696,
     "HTML": 2209346,
@@ -192,6 +192,23 @@
       "archived": false,
       "created_at": "2026-05-22T02:27:46Z",
       "pushed_at": "2026-06-30T02:43:41Z"
+    },
+    {
+      "name": "huanyu-a",
+      "description": "",
+      "html_url": "https://github.com/huanyu-a/huanyu-a",
+      "homepage": "",
+      "language": "Python",
+      "languages": {
+        "Python": 72298
+      },
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-09-28T04:01:46Z",
+      "pushed_at": "2026-09-28T04:01:53Z"
     },
     {
       "name": "toolbox",
