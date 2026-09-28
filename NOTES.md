@@ -73,6 +73,32 @@ python tools/render_preview.py --theme dark --width 880
 
 `preview/` 已在 `.gitignore` 里，不会被提交。
 
+## 线上复核
+
+本地预览过了不代表线上就对 —— 真正要确认的是 GitHub 怎么服务这些文件、浏览器怎么选素材。
+用 CDP 驱动无头 Chrome（`--remote-debugging-port`）打开 `https://github.com/huanyu-a/huanyu-a`，
+然后查三件事，都必须是"数出来的"而不是"看着像"：
+
+1. **素材在线上是 `image/svg+xml` 且不带 charset。** GitHub 的 `/raw/` 会 302 到
+   `raw.githubusercontent.com`，响应头没有 charset 参数，配 XML 默认 UTF-8 ——
+   中文安全（本地预览时曾因把 SVG 内联进 HTML 且漏了 `<meta charset>` 而误判过一次）。
+2. **浅/深两套素材是否真的按 `prefers-color-scheme` 切换。** 逐个读 `<img>` 的
+   `currentSrc`：强制深色时 23 张应全部命中 `-dark.svg`，浅色时应全部命中 `-light.svg`。
+   只看截图会被骗（GitHub 自己的深色页配浅色素材也很"像"）。
+3. **SMIL 是否真的在跑。** 把 SVG 当**顶层文档**打开，隔 2 秒采两次
+   `el[attr].animVal.value`（长度类属性）与 `getComputedStyle(el)[attr]`
+   （`opacity` 这类表现属性），有值变化 + 两帧像素有差异才算数。
+
+三个坑：
+
+- 顶层 SVG 文档里 **`setTimeout` 不会触发**（`document.hasFocus()` 为 true 也不行），
+  所以别在页面内等，要从驱动侧分两次 `Runtime.evaluate` 采样。
+- 页面 `getBoundingClientRect()` 给的坐标可能**与最终截图对不上**
+  （profile README 容器会在 hydration 后重排、图片又是 `loading="lazy"`）。
+  要裁某张素材就 `scrollIntoView` 后截视口，别按整页坐标裁。
+- `rect@width="1"` 这种正则会**误命中 `stroke-width="1"`**（`[^>]*` 把 `stroke-` 吃掉了），
+  据此下过的"药丸有入场动画"的结论是错的 —— 统计属性时把前缀一起写进 pattern。
+
 ## SVG 的几条硬约束
 
 在 GitHub README 里显示的 SVG 是当 `<img>` 加载的独立文档，所以：
