@@ -1,0 +1,7 @@
+# The generated assets are compared byte-for-byte by the daily Action, so the
+# working tree must not differ from the Linux runner just because of line
+# endings.
+* text=auto eol=lf
+*.svg text eol=lf
+*.png binary
+*.jpg binary

@@ -149,6 +149,32 @@ def collect(get, login: str) -> dict:
     }
 
 
+def write_if_changed(out: Path, data: dict) -> bool:
+    """Write profile.json, but keep the old timestamp when nothing else moved.
+
+    Without this the daily Action would commit a file whose only difference is
+    `generated_at`, which is noise. With it, the timestamp means "when the data
+    last actually changed" and a run that changes nothing is a no-op.
+    """
+    if out.exists():
+        try:
+            prev = json.loads(out.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            prev = None
+        if prev is not None:
+            cur = {k: v for k, v in data.items() if k != "generated_at"}
+            old = {k: v for k, v in prev.items() if k != "generated_at"}
+            if cur == old and prev.get("generated_at"):
+                data["generated_at"] = prev["generated_at"]
+                return False
+
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return True
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--login", default=DEFAULT_LOGIN)
@@ -161,14 +187,11 @@ def main() -> int:
     data = collect(make_client(token), args.login)
 
     out = Path(args.out)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(
-        json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    changed = write_if_changed(out, data)
 
     s = data["stats"]
     print(
-        f"wrote {out.relative_to(ROOT)}: "
+        f"{'wrote' if changed else 'unchanged'} {out.relative_to(ROOT)}: "
         f"{len(data['repos'])} repos, {s['own_repos']} own, "
         f"{s['total_stars']} stars, {len(data['languages'])} languages"
     )
