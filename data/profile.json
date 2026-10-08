@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:16:20+00:00",
+  "generated_at": "2026-10-08T14:50:05+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -13,13 +13,13 @@
   "stats": {
     "own_repos": 11,
     "total_stars": 24,
-    "latest_push": "2026-09-29T10:26:25Z"
+    "latest_push": "2026-10-08T11:34:27Z"
   },
   "languages": {
-    "TypeScript": 2744799,
-    "Vue": 831672,
+    "TypeScript": 2791713,
+    "Vue": 881077,
     "CSS": 1087920,
-    "JavaScript": 2194330,
+    "JavaScript": 2195180,
     "Python": 491418,
     "Shell": 9393,
     "Dockerfile": 5696,
@@ -101,10 +101,10 @@
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1045945,
-        "Vue": 788693,
+        "TypeScript": 1092859,
+        "Vue": 838098,
         "CSS": 385030,
-        "JavaScript": 350057,
+        "JavaScript": 350907,
         "Python": 22696,
         "Shell": 3289,
         "Dockerfile": 1524,
@@ -135,7 +135,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-09-29T10:26:25Z"
+      "pushed_at": "2026-10-08T11:34:27Z"
     },
     {
       "name": "wechat-article-bot",
