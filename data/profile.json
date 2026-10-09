@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:50:05+00:00",
+  "generated_at": "2026-10-09T14:34:01+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -13,15 +13,16 @@
   "stats": {
     "own_repos": 11,
     "total_stars": 24,
-    "latest_push": "2026-10-08T11:34:27Z"
+    "latest_push": "2026-10-09T10:13:17Z"
   },
   "languages": {
-    "TypeScript": 2791713,
-    "Vue": 881077,
+    "TypeScript": 2794159,
+    "Vue": 892168,
+    "Python": 1181917,
     "CSS": 1087920,
-    "JavaScript": 2195180,
-    "Python": 491418,
+    "JavaScript": 2218435,
     "Shell": 9393,
+    "Batchfile": 2033,
     "Dockerfile": 5696,
     "HTML": 2208937,
     "PHP": 1634322,
@@ -29,8 +30,7 @@
     "Go Template": 10875,
     "PLpgSQL": 4956,
     "Rust": 28393,
-    "VBScript": 318,
-    "Batchfile": 252
+    "VBScript": 318
   },
   "repos": [
     {
@@ -101,12 +101,13 @@
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1092859,
-        "Vue": 838098,
+        "TypeScript": 1095305,
+        "Vue": 849189,
+        "Python": 713195,
         "CSS": 385030,
-        "JavaScript": 350907,
-        "Python": 22696,
+        "JavaScript": 374162,
         "Shell": 3289,
+        "Batchfile": 1781,
         "Dockerfile": 1524,
         "HTML": 348
       },
@@ -135,7 +136,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-10-08T11:34:27Z"
+      "pushed_at": "2026-10-09T10:13:17Z"
     },
     {
       "name": "wechat-article-bot",
