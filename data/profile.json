@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:56:09+00:00",
+  "generated_at": "2026-10-12T16:55:48+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -12,15 +12,15 @@
   "public_repos": 34,
   "stats": {
     "own_repos": 11,
-    "total_stars": 24,
-    "latest_push": "2026-10-10T06:34:48Z"
+    "total_stars": 26,
+    "latest_push": "2026-10-12T10:03:20Z"
   },
   "languages": {
-    "TypeScript": 2807856,
-    "Vue": 898566,
+    "TypeScript": 2824872,
+    "Vue": 921206,
     "Python": 1181917,
     "CSS": 1087920,
-    "JavaScript": 2218435,
+    "JavaScript": 2225360,
     "Shell": 9393,
     "Batchfile": 2477,
     "Dockerfile": 5696,
@@ -95,17 +95,43 @@
       "pushed_at": "2026-09-15T08:04:01Z"
     },
     {
+      "name": "FavsSnap_wechat-article-clip_ext",
+      "description": "FavsSnap — 微信文章剪藏 (Chrome 扩展)，将微信公众号文章一键转为 Markdown + 本地图片，支持批量剪藏。  FavsSnap 是一款浏览器扩展，基于 Chrome Extension Manifest V3 开发，直接运行在浏览器侧边栏中，无需安装 Python 或其他运行时。",
+      "html_url": "https://github.com/huanyu-a/FavsSnap_wechat-article-clip_ext",
+      "homepage": "https://www.bx9y.com.cn/open-source/",
+      "language": "HTML",
+      "languages": {
+        "HTML": 9112,
+        "JavaScript": 3890
+      },
+      "stars": 2,
+      "forks": 1,
+      "topics": [
+        "article-clipper",
+        "browser-extension",
+        "chrome-extension",
+        "content-saver",
+        "markdown",
+        "wechat",
+        "wechat-article"
+      ],
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-05-22T02:27:46Z",
+      "pushed_at": "2026-06-30T02:43:41Z"
+    },
+    {
       "name": "FavsHub_web",
       "description": "FavsHub —— 网址导航与智能书签管理工作台（Nuxt 3 SSR + SQLite）。卡片式书签主页、约 29 款搜索引擎聚合、精选集市场、PromptPro AI 提示词管理、免费额度通告与分享卡片；配浏览器扩展多端同步，并提供 AI 数据接口（PAT / MCP）让 AI 助手直接操作数据。",
       "html_url": "https://github.com/huanyu-a/FavsHub_web",
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1109002,
-        "Vue": 855587,
+        "TypeScript": 1126018,
+        "Vue": 878227,
         "Python": 713195,
         "CSS": 385030,
-        "JavaScript": 374162,
+        "JavaScript": 381087,
         "Shell": 3289,
         "Batchfile": 2225,
         "Dockerfile": 1524,
@@ -136,7 +162,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-10-10T06:34:48Z"
+      "pushed_at": "2026-10-12T10:03:20Z"
     },
     {
       "name": "wechat-article-bot",
@@ -169,30 +195,22 @@
       "pushed_at": "2026-09-09T15:17:42Z"
     },
     {
-      "name": "FavsSnap_wechat-article-clip_ext",
-      "description": "FavsSnap — 微信文章剪藏 (Chrome 扩展)，将微信公众号文章一键转为 Markdown + 本地图片，支持批量剪藏。  FavsSnap 是一款浏览器扩展，基于 Chrome Extension Manifest V3 开发，直接运行在浏览器侧边栏中，无需安装 Python 或其他运行时。",
-      "html_url": "https://github.com/huanyu-a/FavsSnap_wechat-article-clip_ext",
-      "homepage": "https://www.bx9y.com.cn/open-source/",
-      "language": "HTML",
+      "name": "gzh-design-skill11",
+      "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+      "html_url": "https://github.com/huanyu-a/gzh-design-skill11",
+      "homepage": "https://github.com/AlephMuYe",
+      "language": "",
       "languages": {
-        "HTML": 9112,
-        "JavaScript": 3890
+        "HTML": 834315,
+        "Python": 332425
       },
       "stars": 1,
-      "forks": 1,
-      "topics": [
-        "article-clipper",
-        "browser-extension",
-        "chrome-extension",
-        "content-saver",
-        "markdown",
-        "wechat",
-        "wechat-article"
-      ],
+      "forks": 0,
+      "topics": [],
       "fork": false,
       "archived": false,
-      "created_at": "2026-05-22T02:27:46Z",
-      "pushed_at": "2026-06-30T02:43:41Z"
+      "created_at": "2026-07-31T02:45:25Z",
+      "pushed_at": "2026-07-28T08:15:02Z"
     },
     {
       "name": "toolbox",
@@ -334,24 +352,6 @@
       "archived": false,
       "created_at": "2026-08-14T07:17:19Z",
       "pushed_at": "2026-08-01T02:53:54Z"
-    },
-    {
-      "name": "gzh-design-skill11",
-      "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
-      "html_url": "https://github.com/huanyu-a/gzh-design-skill11",
-      "homepage": "https://github.com/AlephMuYe",
-      "language": "",
-      "languages": {
-        "HTML": 834315,
-        "Python": 332425
-      },
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "fork": false,
-      "archived": false,
-      "created_at": "2026-07-31T02:45:25Z",
-      "pushed_at": "2026-07-28T08:15:02Z"
     },
     {
       "name": "gzh-AI-Design-skill",
