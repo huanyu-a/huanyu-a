@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:55:48+00:00",
+  "generated_at": "2026-10-19T14:54:43+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -12,7 +12,7 @@
   "public_repos": 34,
   "stats": {
     "own_repos": 11,
-    "total_stars": 26,
+    "total_stars": 29,
     "latest_push": "2026-10-12T10:03:20Z"
   },
   "languages": {
@@ -61,6 +61,50 @@
       "archived": false,
       "created_at": "2026-04-10T01:45:40Z",
       "pushed_at": "2026-06-24T10:12:25Z"
+    },
+    {
+      "name": "FavsHub_web",
+      "description": "FavsHub —— 网址导航与智能书签管理工作台（Nuxt 3 SSR + SQLite）。卡片式书签主页、约 29 款搜索引擎聚合、精选集市场、PromptPro AI 提示词管理、免费额度通告与分享卡片；配浏览器扩展多端同步，并提供 AI 数据接口（PAT / MCP）让 AI 助手直接操作数据。",
+      "html_url": "https://github.com/huanyu-a/FavsHub_web",
+      "homepage": "https://hao.bx9y.com.cn/",
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 1126018,
+        "Vue": 878227,
+        "Python": 713195,
+        "CSS": 385030,
+        "JavaScript": 381087,
+        "Shell": 3289,
+        "Batchfile": 2225,
+        "Dockerfile": 1524,
+        "HTML": 348
+      },
+      "stars": 4,
+      "forks": 0,
+      "topics": [
+        "ai-tools",
+        "better-sqlite3",
+        "bookmark-manager",
+        "bookmarks",
+        "browser-extension",
+        "drizzle-orm",
+        "mcp",
+        "navigation",
+        "nuxt",
+        "nuxt3",
+        "prompt-engineering",
+        "search-engine",
+        "self-hosted",
+        "sqlite",
+        "startpage",
+        "typescript",
+        "vue3",
+        "wxt"
+      ],
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-09-17T10:40:45Z",
+      "pushed_at": "2026-10-12T10:03:20Z"
     },
     {
       "name": "MarkFlow",
@@ -119,50 +163,6 @@
       "archived": false,
       "created_at": "2026-05-22T02:27:46Z",
       "pushed_at": "2026-06-30T02:43:41Z"
-    },
-    {
-      "name": "FavsHub_web",
-      "description": "FavsHub —— 网址导航与智能书签管理工作台（Nuxt 3 SSR + SQLite）。卡片式书签主页、约 29 款搜索引擎聚合、精选集市场、PromptPro AI 提示词管理、免费额度通告与分享卡片；配浏览器扩展多端同步，并提供 AI 数据接口（PAT / MCP）让 AI 助手直接操作数据。",
-      "html_url": "https://github.com/huanyu-a/FavsHub_web",
-      "homepage": "https://hao.bx9y.com.cn/",
-      "language": "TypeScript",
-      "languages": {
-        "TypeScript": 1126018,
-        "Vue": 878227,
-        "Python": 713195,
-        "CSS": 385030,
-        "JavaScript": 381087,
-        "Shell": 3289,
-        "Batchfile": 2225,
-        "Dockerfile": 1524,
-        "HTML": 348
-      },
-      "stars": 1,
-      "forks": 0,
-      "topics": [
-        "ai-tools",
-        "better-sqlite3",
-        "bookmark-manager",
-        "bookmarks",
-        "browser-extension",
-        "drizzle-orm",
-        "mcp",
-        "navigation",
-        "nuxt",
-        "nuxt3",
-        "prompt-engineering",
-        "search-engine",
-        "self-hosted",
-        "sqlite",
-        "startpage",
-        "typescript",
-        "vue3",
-        "wxt"
-      ],
-      "fork": false,
-      "archived": false,
-      "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-10-12T10:03:20Z"
     },
     {
       "name": "wechat-article-bot",
