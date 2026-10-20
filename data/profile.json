@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T14:54:43+00:00",
+  "generated_at": "2026-10-20T12:53:51+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -9,18 +9,18 @@
   "created_at": "2024-07-19T08:35:09Z",
   "followers": 1,
   "following": 1,
-  "public_repos": 34,
+  "public_repos": 35,
   "stats": {
     "own_repos": 11,
-    "total_stars": 29,
-    "latest_push": "2026-10-12T10:03:20Z"
+    "total_stars": 30,
+    "latest_push": "2026-10-20T10:06:46Z"
   },
   "languages": {
-    "TypeScript": 2824872,
-    "Vue": 921206,
-    "Python": 1181917,
-    "CSS": 1087920,
-    "JavaScript": 2225360,
+    "TypeScript": 2960260,
+    "Vue": 955339,
+    "Python": 1183208,
+    "CSS": 1088009,
+    "JavaScript": 2229246,
     "Shell": 9393,
     "Batchfile": 2477,
     "Dockerfile": 5696,
@@ -44,7 +44,7 @@
         "CSS": 367840,
         "HTML": 178356
       },
-      "stars": 20,
+      "stars": 21,
       "forks": 0,
       "topics": [
         "ai",
@@ -69,11 +69,11 @@
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1126018,
-        "Vue": 878227,
-        "Python": 713195,
-        "CSS": 385030,
-        "JavaScript": 381087,
+        "TypeScript": 1261406,
+        "Vue": 912360,
+        "Python": 714486,
+        "CSS": 385119,
+        "JavaScript": 384973,
         "Shell": 3289,
         "Batchfile": 2225,
         "Dockerfile": 1524,
@@ -104,7 +104,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-10-12T10:03:20Z"
+      "pushed_at": "2026-10-20T10:06:46Z"
     },
     {
       "name": "MarkFlow",
@@ -211,6 +211,21 @@
       "archived": false,
       "created_at": "2026-07-31T02:45:25Z",
       "pushed_at": "2026-07-28T08:15:02Z"
+    },
+    {
+      "name": "LIG-Editor",
+      "description": "本地优先：图文创作全链路——脑暴选题、AI 初稿、逐段修改、审阅把关、配图封面、标题打磨、排版导出一站式工作台",
+      "html_url": "https://github.com/huanyu-a/LIG-Editor",
+      "homepage": "",
+      "language": "",
+      "languages": {},
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-10-20T11:08:44Z",
+      "pushed_at": "2026-10-20T04:21:53Z"
     },
     {
       "name": "toolbox",
