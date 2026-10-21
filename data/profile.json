@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:53:51+00:00",
+  "generated_at": "2026-10-21T13:07:51+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -9,18 +9,18 @@
   "created_at": "2024-07-19T08:35:09Z",
   "followers": 1,
   "following": 1,
-  "public_repos": 35,
+  "public_repos": 36,
   "stats": {
     "own_repos": 11,
     "total_stars": 30,
-    "latest_push": "2026-10-20T10:06:46Z"
+    "latest_push": "2026-10-20T16:41:44Z"
   },
   "languages": {
-    "TypeScript": 2960260,
-    "Vue": 955339,
-    "Python": 1183208,
+    "TypeScript": 2961730,
+    "Vue": 957956,
+    "Python": 1199927,
+    "JavaScript": 2230050,
     "CSS": 1088009,
-    "JavaScript": 2229246,
     "Shell": 9393,
     "Batchfile": 2477,
     "Dockerfile": 5696,
@@ -69,11 +69,11 @@
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1261406,
-        "Vue": 912360,
-        "Python": 714486,
+        "TypeScript": 1262876,
+        "Vue": 914977,
+        "Python": 731205,
+        "JavaScript": 385777,
         "CSS": 385119,
-        "JavaScript": 384973,
         "Shell": 3289,
         "Batchfile": 2225,
         "Dockerfile": 1524,
@@ -104,7 +104,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-10-20T10:06:46Z"
+      "pushed_at": "2026-10-20T16:41:44Z"
     },
     {
       "name": "MarkFlow",
@@ -211,6 +211,43 @@
       "archived": false,
       "created_at": "2026-07-31T02:45:25Z",
       "pushed_at": "2026-07-28T08:15:02Z"
+    },
+    {
+      "name": "panseek",
+      "description": "PanSeek — 聚合网盘搜索工具。一次搜索覆盖阿里云盘、夸克、百度、115、迅雷、UC、天翼、Mobile、PikPak、123网盘、瓜子、磁力等全平台资源。Nuxt 4 + Cloudflare Workers 部署，Telegram 频道聚合 + 68 个插件源，智能评分排序，开源免费零广告。",
+      "html_url": "https://github.com/huanyu-a/panseek",
+      "homepage": "https://panseek.bx9y.com.cn",
+      "language": "TypeScript",
+      "languages": {},
+      "stars": 1,
+      "forks": 0,
+      "topics": [
+        "cloud-storage-search",
+        "file-sharing",
+        "magnet-search",
+        "multi-platform",
+        "pansearch",
+        "resource-aggregator"
+      ],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-04-29T08:17:07Z",
+      "pushed_at": "2026-07-20T03:37:10Z"
+    },
+    {
+      "name": "VideoCup",
+      "description": "一个超轻量的在线媒体+字幕+配音的剪辑工具",
+      "html_url": "https://github.com/huanyu-a/VideoCup",
+      "homepage": "",
+      "language": "",
+      "languages": {},
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-10-21T01:25:09Z",
+      "pushed_at": "2026-10-21T01:19:40Z"
     },
     {
       "name": "LIG-Editor",
@@ -382,28 +419,6 @@
       "archived": false,
       "created_at": "2026-07-31T02:45:06Z",
       "pushed_at": "2026-07-27T04:23:34Z"
-    },
-    {
-      "name": "panseek",
-      "description": "PanSeek — 聚合网盘搜索工具。一次搜索覆盖阿里云盘、夸克、百度、115、迅雷、UC、天翼、Mobile、PikPak、123网盘、瓜子、磁力等全平台资源。Nuxt 4 + Cloudflare Workers 部署，Telegram 频道聚合 + 68 个插件源，智能评分排序，开源免费零广告。",
-      "html_url": "https://github.com/huanyu-a/panseek",
-      "homepage": "https://panseek.bx9y.com.cn",
-      "language": "TypeScript",
-      "languages": {},
-      "stars": 0,
-      "forks": 0,
-      "topics": [
-        "cloud-storage-search",
-        "file-sharing",
-        "magnet-search",
-        "multi-platform",
-        "pansearch",
-        "resource-aggregator"
-      ],
-      "fork": true,
-      "archived": false,
-      "created_at": "2026-04-29T08:17:07Z",
-      "pushed_at": "2026-07-20T03:37:10Z"
     },
     {
       "name": "Codex-Dream-Skin-Forge",
