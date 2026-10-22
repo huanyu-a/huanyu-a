@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:07:51+00:00",
+  "generated_at": "2026-10-22T13:08:06+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -80,7 +80,7 @@
         "HTML": 348
       },
       "stars": 4,
-      "forks": 0,
+      "forks": 1,
       "topics": [
         "ai-tools",
         "better-sqlite3",
