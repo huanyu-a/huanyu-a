@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T12:48:15+00:00",
+  "generated_at": "2026-10-24T12:09:54+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -139,6 +139,28 @@
       "pushed_at": "2026-09-15T08:04:01Z"
     },
     {
+      "name": "panseek",
+      "description": "PanSeek — 聚合网盘搜索工具。一次搜索覆盖阿里云盘、夸克、百度、115、迅雷、UC、天翼、Mobile、PikPak、123网盘、瓜子、磁力等全平台资源。Nuxt 4 + Cloudflare Workers 部署，Telegram 频道聚合 + 68 个插件源，智能评分排序，开源免费零广告。",
+      "html_url": "https://github.com/huanyu-a/panseek",
+      "homepage": "https://panseek.bx9y.com.cn",
+      "language": "TypeScript",
+      "languages": {},
+      "stars": 2,
+      "forks": 1,
+      "topics": [
+        "cloud-storage-search",
+        "file-sharing",
+        "magnet-search",
+        "multi-platform",
+        "pansearch",
+        "resource-aggregator"
+      ],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-04-29T08:17:07Z",
+      "pushed_at": "2026-07-20T03:37:10Z"
+    },
+    {
       "name": "FavsSnap_wechat-article-clip_ext",
       "description": "FavsSnap — 微信文章剪藏 (Chrome 扩展)，将微信公众号文章一键转为 Markdown + 本地图片，支持批量剪藏。  FavsSnap 是一款浏览器扩展，基于 Chrome Extension Manifest V3 开发，直接运行在浏览器侧边栏中，无需安装 Python 或其他运行时。",
       "html_url": "https://github.com/huanyu-a/FavsSnap_wechat-article-clip_ext",
@@ -211,28 +233,6 @@
       "archived": false,
       "created_at": "2026-07-31T02:45:25Z",
       "pushed_at": "2026-07-28T08:15:02Z"
-    },
-    {
-      "name": "panseek",
-      "description": "PanSeek — 聚合网盘搜索工具。一次搜索覆盖阿里云盘、夸克、百度、115、迅雷、UC、天翼、Mobile、PikPak、123网盘、瓜子、磁力等全平台资源。Nuxt 4 + Cloudflare Workers 部署，Telegram 频道聚合 + 68 个插件源，智能评分排序，开源免费零广告。",
-      "html_url": "https://github.com/huanyu-a/panseek",
-      "homepage": "https://panseek.bx9y.com.cn",
-      "language": "TypeScript",
-      "languages": {},
-      "stars": 1,
-      "forks": 1,
-      "topics": [
-        "cloud-storage-search",
-        "file-sharing",
-        "magnet-search",
-        "multi-platform",
-        "pansearch",
-        "resource-aggregator"
-      ],
-      "fork": true,
-      "archived": false,
-      "created_at": "2026-04-29T08:17:07Z",
-      "pushed_at": "2026-07-20T03:37:10Z"
     },
     {
       "name": "VideoCup",
