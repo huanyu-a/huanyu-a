@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:09:54+00:00",
+  "generated_at": "2026-10-26T14:29:47+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -7,12 +7,12 @@
   "location": "",
   "avatar_url": "https://avatars.githubusercontent.com/u/176020634?v=4",
   "created_at": "2024-07-19T08:35:09Z",
-  "followers": 1,
+  "followers": 2,
   "following": 1,
   "public_repos": 36,
   "stats": {
     "own_repos": 11,
-    "total_stars": 30,
+    "total_stars": 31,
     "latest_push": "2026-10-20T16:41:44Z"
   },
   "languages": {
@@ -146,7 +146,7 @@
       "language": "TypeScript",
       "languages": {},
       "stars": 2,
-      "forks": 1,
+      "forks": 2,
       "topics": [
         "cloud-storage-search",
         "file-sharing",
@@ -215,6 +215,38 @@
       "archived": false,
       "created_at": "2026-04-14T02:20:13Z",
       "pushed_at": "2026-09-09T15:17:42Z"
+    },
+    {
+      "name": "ScriptDeck_Script_Manager",
+      "description": "A lightweight Windows script launcher — scan directories for .bat + readme.md, preview and launch scripts from a modern browser UI.给你的 Python 脚本一个家 —— 自动扫描目录中的 .bat 和 README 文档，在漂亮的浏览器界面中一键查找、预览、启动。不只 Python，任何能用 .bat 跑起来的项目都行。",
+      "html_url": "https://github.com/huanyu-a/ScriptDeck_Script_Manager",
+      "homepage": "https://www.bx9y.com.cn/open-source/",
+      "language": "JavaScript",
+      "languages": {
+        "JavaScript": 80459,
+        "CSS": 70124,
+        "Python": 38131,
+        "Rust": 28393,
+        "HTML": 12042,
+        "VBScript": 318,
+        "Batchfile": 116
+      },
+      "stars": 1,
+      "forks": 0,
+      "topics": [
+        "bat",
+        "browser-ui",
+        "flask",
+        "launcher",
+        "python",
+        "python-script",
+        "script-manager",
+        "windows"
+      ],
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-06-12T08:47:36Z",
+      "pushed_at": "2026-09-09T09:54:02Z"
     },
     {
       "name": "gzh-design-skill11",
@@ -297,38 +329,6 @@
       "archived": false,
       "created_at": "2026-08-14T08:47:47Z",
       "pushed_at": "2026-09-28T08:28:06Z"
-    },
-    {
-      "name": "ScriptDeck_Script_Manager",
-      "description": "A lightweight Windows script launcher — scan directories for .bat + readme.md, preview and launch scripts from a modern browser UI.给你的 Python 脚本一个家 —— 自动扫描目录中的 .bat 和 README 文档，在漂亮的浏览器界面中一键查找、预览、启动。不只 Python，任何能用 .bat 跑起来的项目都行。",
-      "html_url": "https://github.com/huanyu-a/ScriptDeck_Script_Manager",
-      "homepage": "https://www.bx9y.com.cn/open-source/",
-      "language": "JavaScript",
-      "languages": {
-        "JavaScript": 80459,
-        "CSS": 70124,
-        "Python": 38131,
-        "Rust": 28393,
-        "HTML": 12042,
-        "VBScript": 318,
-        "Batchfile": 116
-      },
-      "stars": 0,
-      "forks": 0,
-      "topics": [
-        "bat",
-        "browser-ui",
-        "flask",
-        "launcher",
-        "python",
-        "python-script",
-        "script-manager",
-        "windows"
-      ],
-      "fork": false,
-      "archived": false,
-      "created_at": "2026-06-12T08:47:36Z",
-      "pushed_at": "2026-09-09T09:54:02Z"
     },
     {
       "name": "OnePage",
