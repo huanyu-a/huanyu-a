@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:48:45+00:00",
+  "generated_at": "2026-11-02T17:22:43+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -9,18 +9,18 @@
   "created_at": "2024-07-19T08:35:09Z",
   "followers": 2,
   "following": 1,
-  "public_repos": 36,
+  "public_repos": 37,
   "stats": {
     "own_repos": 11,
     "total_stars": 31,
-    "latest_push": "2026-10-31T03:01:21Z"
+    "latest_push": "2026-11-02T10:46:13Z"
   },
   "languages": {
-    "TypeScript": 3171189,
-    "Vue": 1129627,
-    "JavaScript": 2611845,
+    "TypeScript": 3193267,
+    "Vue": 1167221,
+    "JavaScript": 2620836,
     "Python": 1199927,
-    "CSS": 1088009,
+    "CSS": 1090255,
     "Shell": 9870,
     "Dockerfile": 6839,
     "Batchfile": 2477,
@@ -69,11 +69,11 @@
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1472335,
-        "Vue": 1086648,
-        "JavaScript": 767572,
+        "TypeScript": 1494413,
+        "Vue": 1124242,
+        "JavaScript": 776563,
         "Python": 731205,
-        "CSS": 385119,
+        "CSS": 387365,
         "Shell": 3967,
         "Dockerfile": 2667,
         "Batchfile": 2225,
@@ -104,7 +104,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-10-31T03:01:21Z"
+      "pushed_at": "2026-11-02T10:46:13Z"
     },
     {
       "name": "MarkFlow",
@@ -265,6 +265,21 @@
       "archived": false,
       "created_at": "2026-07-31T02:45:25Z",
       "pushed_at": "2026-07-28T08:15:02Z"
+    },
+    {
+      "name": "lancer",
+      "description": "Lancer — desktop AI workspace based on pi-gui and pi",
+      "html_url": "https://github.com/huanyu-a/lancer",
+      "homepage": "",
+      "language": "",
+      "languages": {},
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-11-02T00:55:35Z",
+      "pushed_at": "2026-10-31T08:20:55Z"
     },
     {
       "name": "toolbox",
