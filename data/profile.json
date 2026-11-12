@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T15:33:00+00:00",
+  "generated_at": "2026-11-12T16:08:55+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -7,18 +7,18 @@
   "location": "",
   "avatar_url": "https://avatars.githubusercontent.com/u/176020634?v=4",
   "created_at": "2024-07-19T08:35:09Z",
-  "followers": 4,
+  "followers": 5,
   "following": 1,
-  "public_repos": 38,
+  "public_repos": 39,
   "stats": {
-    "own_repos": 11,
-    "total_stars": 31,
-    "latest_push": "2026-11-09T11:17:26Z"
+    "own_repos": 12,
+    "total_stars": 32,
+    "latest_push": "2026-11-12T08:33:34Z"
   },
   "languages": {
-    "TypeScript": 3296788,
-    "Vue": 1309468,
-    "JavaScript": 3052740,
+    "TypeScript": 3624115,
+    "JavaScript": 3150015,
+    "Vue": 1307350,
     "Python": 1199927,
     "CSS": 1090255,
     "Shell": 22727,
@@ -70,8 +70,8 @@
       "language": "TypeScript",
       "languages": {
         "TypeScript": 1597934,
-        "Vue": 1266489,
-        "JavaScript": 1208467,
+        "Vue": 1264371,
+        "JavaScript": 1213222,
         "Python": 731205,
         "CSS": 387365,
         "Shell": 16824,
@@ -104,7 +104,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-11-09T11:17:26Z"
+      "pushed_at": "2026-11-12T04:37:23Z"
     },
     {
       "name": "MarkFlow",
@@ -187,6 +187,33 @@
       "pushed_at": "2026-06-30T02:43:41Z"
     },
     {
+      "name": "dsh-memory-gate",
+      "description": "Per-model, per-session header gate for DeepSeek Harness pi-ai requests: stamps configurable headers on calls to trusted origins, pinning each session's first decision. TDAI memory proxy identity headers are the shipped default; names, values and origins are configurable.",
+      "html_url": "https://github.com/huanyu-a/dsh-memory-gate",
+      "homepage": "https://www.bx9y.com.cn/",
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 327327,
+        "JavaScript": 92520
+      },
+      "stars": 1,
+      "forks": 0,
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "header-gate",
+        "memory",
+        "memory-proxy",
+        "request-headers",
+        "tdai",
+        "typescript"
+      ],
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-11-11T15:35:57Z",
+      "pushed_at": "2026-11-12T08:33:34Z"
+    },
+    {
       "name": "wechat-article-bot",
       "description": "墨舟 · 微信公众号文章管理助手",
       "html_url": "https://github.com/huanyu-a/wechat-article-bot",
@@ -199,7 +226,7 @@
       "fork": true,
       "archived": false,
       "created_at": "2026-09-07T02:51:29Z",
-      "pushed_at": "2026-11-11T05:59:35Z"
+      "pushed_at": "2026-11-11T16:40:53Z"
     },
     {
       "name": "GEOFlow",
