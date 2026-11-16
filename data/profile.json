@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:38:02+00:00",
+  "generated_at": "2026-11-16T17:19:37+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -13,12 +13,12 @@
   "stats": {
     "own_repos": 12,
     "total_stars": 32,
-    "latest_push": "2026-11-12T08:33:34Z"
+    "latest_push": "2026-11-16T10:42:05Z"
   },
   "languages": {
-    "TypeScript": 3624115,
-    "JavaScript": 3150015,
+    "TypeScript": 3633384,
     "Vue": 1307350,
+    "JavaScript": 3150015,
     "Python": 1199927,
     "CSS": 1090255,
     "Shell": 22727,
@@ -69,7 +69,7 @@
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1597934,
+        "TypeScript": 1607203,
         "Vue": 1264371,
         "JavaScript": 1213222,
         "Python": 731205,
@@ -104,7 +104,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-11-12T04:37:23Z"
+      "pushed_at": "2026-11-16T10:42:05Z"
     },
     {
       "name": "MarkFlow",
