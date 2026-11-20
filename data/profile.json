@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:44:06+00:00",
+  "generated_at": "2026-11-20T16:18:40+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -9,7 +9,7 @@
   "created_at": "2024-07-19T08:35:09Z",
   "followers": 5,
   "following": 1,
-  "public_repos": 40,
+  "public_repos": 41,
   "stats": {
     "own_repos": 12,
     "total_stars": 32,
@@ -292,6 +292,21 @@
       "archived": false,
       "created_at": "2026-07-31T02:45:25Z",
       "pushed_at": "2026-07-28T08:15:02Z"
+    },
+    {
+      "name": "dsh-purge-safe",
+      "description": "正版dsh-purge  DeepSeek Harness 破甲 ：默认提示词面向国模，原小码酱，完整开放版，无付费墙，技能库与知识库全含，免费公开。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐",
+      "html_url": "https://github.com/huanyu-a/dsh-purge-safe",
+      "homepage": "",
+      "language": "",
+      "languages": {},
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-11-20T03:15:24Z",
+      "pushed_at": "2026-11-19T16:40:04Z"
     },
     {
       "name": "mdldm-maitian",
