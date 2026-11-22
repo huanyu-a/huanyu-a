@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T16:18:40+00:00",
+  "generated_at": "2026-11-22T15:35:12+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -107,6 +107,28 @@
       "pushed_at": "2026-11-19T10:00:21Z"
     },
     {
+      "name": "panseek",
+      "description": "PanSeek — 聚合网盘搜索工具。一次搜索覆盖阿里云盘、夸克、百度、115、迅雷、UC、天翼、Mobile、PikPak、123网盘、瓜子、磁力等全平台资源。Nuxt 4 + Cloudflare Workers 部署，Telegram 频道聚合 + 68 个插件源，智能评分排序，开源免费零广告。",
+      "html_url": "https://github.com/huanyu-a/panseek",
+      "homepage": "https://panseek.bx9y.com.cn",
+      "language": "TypeScript",
+      "languages": {},
+      "stars": 3,
+      "forks": 3,
+      "topics": [
+        "cloud-storage-search",
+        "file-sharing",
+        "magnet-search",
+        "multi-platform",
+        "pansearch",
+        "resource-aggregator"
+      ],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-04-29T08:17:07Z",
+      "pushed_at": "2026-07-20T03:37:10Z"
+    },
+    {
       "name": "MarkFlow",
       "description": "纯前端、零后端 的 Markdown / HTML 多场景排版与导出工作台。  通过使用本工作台既定的渲染方式，与外部 AI 协作，快捷将内容渲染为 A4 正式文档 · 公众号长图文 · 小红书图文卡片 · 风格化 HTML 画布， 并导出为富文本 / 高清 PNG / 矢量 PDF / Word (.docx) / PPT (.pptx) / 批量 ZIP。",
       "html_url": "https://github.com/huanyu-a/MarkFlow",
@@ -137,28 +159,6 @@
       "archived": false,
       "created_at": "2026-06-22T07:21:18Z",
       "pushed_at": "2026-09-15T08:04:01Z"
-    },
-    {
-      "name": "panseek",
-      "description": "PanSeek — 聚合网盘搜索工具。一次搜索覆盖阿里云盘、夸克、百度、115、迅雷、UC、天翼、Mobile、PikPak、123网盘、瓜子、磁力等全平台资源。Nuxt 4 + Cloudflare Workers 部署，Telegram 频道聚合 + 68 个插件源，智能评分排序，开源免费零广告。",
-      "html_url": "https://github.com/huanyu-a/panseek",
-      "homepage": "https://panseek.bx9y.com.cn",
-      "language": "TypeScript",
-      "languages": {},
-      "stars": 2,
-      "forks": 3,
-      "topics": [
-        "cloud-storage-search",
-        "file-sharing",
-        "magnet-search",
-        "multi-platform",
-        "pansearch",
-        "resource-aggregator"
-      ],
-      "fork": true,
-      "archived": false,
-      "created_at": "2026-04-29T08:17:07Z",
-      "pushed_at": "2026-07-20T03:37:10Z"
     },
     {
       "name": "FavsSnap_wechat-article-clip_ext",
