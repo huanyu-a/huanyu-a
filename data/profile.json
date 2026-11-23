@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:35:12+00:00",
+  "generated_at": "2026-11-23T19:25:42+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -9,7 +9,7 @@
   "created_at": "2024-07-19T08:35:09Z",
   "followers": 5,
   "following": 1,
-  "public_repos": 41,
+  "public_repos": 42,
   "stats": {
     "own_repos": 12,
     "total_stars": 32,
@@ -292,6 +292,21 @@
       "archived": false,
       "created_at": "2026-07-31T02:45:25Z",
       "pushed_at": "2026-07-28T08:15:02Z"
+    },
+    {
+      "name": "cbrowser",
+      "description": "Web-based browser profile manager for CloakBrowser — create, launch, and manage isolated browser profiles with unique fingerprints. Free, self-hosted   Multilogin alternative",
+      "html_url": "https://github.com/huanyu-a/cbrowser",
+      "homepage": "https://cloakbrowser.dev/manager/",
+      "language": "",
+      "languages": {},
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-11-23T01:35:36Z",
+      "pushed_at": "2026-11-21T17:02:26Z"
     },
     {
       "name": "dsh-purge-safe",
