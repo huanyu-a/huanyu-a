@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T19:01:34+00:00",
+  "generated_at": "2026-11-26T17:51:36+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -9,22 +9,23 @@
   "created_at": "2024-07-19T08:35:09Z",
   "followers": 6,
   "following": 1,
-  "public_repos": 42,
+  "public_repos": 45,
   "stats": {
-    "own_repos": 12,
+    "own_repos": 14,
     "total_stars": 32,
-    "latest_push": "2026-11-19T10:00:21Z"
+    "latest_push": "2026-11-26T13:42:57Z"
   },
   "languages": {
-    "TypeScript": 3634461,
-    "Vue": 1308294,
-    "JavaScript": 3150015,
-    "Python": 1199927,
-    "CSS": 1090255,
+    "TypeScript": 4721679,
+    "Vue": 1374181,
+    "JavaScript": 4320012,
+    "Python": 1203759,
+    "CSS": 1141527,
     "Shell": 22727,
     "Dockerfile": 7291,
     "Batchfile": 2477,
     "HTML": 2193168,
+    "PowerShell": 446085,
     "PHP": 1635231,
     "Smarty": 20365,
     "Go Template": 10875,
@@ -69,11 +70,11 @@
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1608280,
-        "Vue": 1265315,
+        "TypeScript": 1808627,
+        "Vue": 1331202,
         "JavaScript": 1213222,
         "Python": 731205,
-        "CSS": 387365,
+        "CSS": 396707,
         "Shell": 16824,
         "Dockerfile": 3119,
         "Batchfile": 2225,
@@ -104,7 +105,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-11-19T10:00:21Z"
+      "pushed_at": "2026-11-26T13:42:57Z"
     },
     {
       "name": "panseek",
@@ -294,6 +295,56 @@
       "pushed_at": "2026-07-28T08:15:02Z"
     },
     {
+      "name": "dsh-profile-config-sync",
+      "description": "DSH 多端配置备份 / 同步 / 还原：12 组内容（profile、提示词、Skills、预设、插件数据、工作区与会话）→ 自有 Git 或 WebDAV，一条命令换机、重装、回滚。退出后执行、覆盖前留底、凭据不入库。Windows + macOS/Linux。Config sync for DeepSeek Harness.",
+      "html_url": "https://github.com/huanyu-a/dsh-profile-config-sync",
+      "homepage": "https://www.bx9y.com.cn/open-source/",
+      "language": "JavaScript",
+      "languages": {
+        "JavaScript": 1056423,
+        "PowerShell": 446085,
+        "Python": 3832
+      },
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "backup",
+        "config-backup",
+        "config-sync",
+        "deepseek-harness",
+        "dotfiles",
+        "dsh",
+        "dsh-plugin",
+        "git",
+        "linux",
+        "macos",
+        "multi-device",
+        "nodejs",
+        "powershell",
+        "restore",
+        "webdav"
+      ],
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-11-24T16:08:35Z",
+      "pushed_at": "2026-11-26T09:52:24Z"
+    },
+    {
+      "name": "awesome-dsh-plugin",
+      "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "html_url": "https://github.com/huanyu-a/awesome-dsh-plugin",
+      "homepage": "https://awesome-dsh-plugin.com",
+      "language": "",
+      "languages": {},
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-11-26T09:11:39Z",
+      "pushed_at": "2026-11-26T09:36:32Z"
+    },
+    {
       "name": "cbrowser",
       "description": "Web-based browser profile manager for CloakBrowser — create, launch, and manage isolated browser profiles with unique fingerprints. Free, self-hosted   Multilogin alternative",
       "html_url": "https://github.com/huanyu-a/cbrowser",
@@ -337,6 +388,27 @@
       "archived": false,
       "created_at": "2026-11-18T10:36:21Z",
       "pushed_at": "2026-11-18T02:49:13Z"
+    },
+    {
+      "name": "dsh-ssh-hub",
+      "description": "Server fleet operations hub for DeepSeek Harness: SSH transport (inherited from @linxin666/dsh-ssh) plus inspection, metrics/alerting, deployment orchestration, cross-host log search, credential hardening and audit trail.",
+      "html_url": "https://github.com/huanyu-a/dsh-ssh-hub",
+      "homepage": "",
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 886871,
+        "JavaScript": 113574,
+        "CSS": 41930
+      },
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-11-17T04:06:06Z",
+      "pushed_at": "2026-11-17T06:23:18Z"
     },
     {
       "name": "dsh-session-superagent",
