@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:51:36+00:00",
+  "generated_at": "2026-11-27T17:36:50+00:00",
   "login": "huanyu-a",
   "name": "拉着猫咪逛公园",
   "bio": "",
@@ -13,19 +13,19 @@
   "stats": {
     "own_repos": 14,
     "total_stars": 32,
-    "latest_push": "2026-11-26T13:42:57Z"
+    "latest_push": "2026-11-27T09:56:02Z"
   },
   "languages": {
-    "TypeScript": 4721679,
-    "Vue": 1374181,
-    "JavaScript": 4320012,
+    "TypeScript": 4737430,
+    "Vue": 1400429,
+    "JavaScript": 4356964,
     "Python": 1203759,
-    "CSS": 1141527,
+    "CSS": 1142576,
     "Shell": 22727,
     "Dockerfile": 7291,
     "Batchfile": 2477,
     "HTML": 2193168,
-    "PowerShell": 446085,
+    "PowerShell": 452592,
     "PHP": 1635231,
     "Smarty": 20365,
     "Go Template": 10875,
@@ -70,11 +70,11 @@
       "homepage": "https://hao.bx9y.com.cn/",
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 1808627,
-        "Vue": 1331202,
-        "JavaScript": 1213222,
+        "TypeScript": 1824378,
+        "Vue": 1357450,
+        "JavaScript": 1241479,
         "Python": 731205,
-        "CSS": 396707,
+        "CSS": 397756,
         "Shell": 16824,
         "Dockerfile": 3119,
         "Batchfile": 2225,
@@ -105,7 +105,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-09-17T10:40:45Z",
-      "pushed_at": "2026-11-26T13:42:57Z"
+      "pushed_at": "2026-11-27T09:56:02Z"
     },
     {
       "name": "panseek",
@@ -301,8 +301,8 @@
       "homepage": "https://www.bx9y.com.cn/open-source/",
       "language": "JavaScript",
       "languages": {
-        "JavaScript": 1056423,
-        "PowerShell": 446085,
+        "JavaScript": 1065118,
+        "PowerShell": 452592,
         "Python": 3832
       },
       "stars": 0,
@@ -327,7 +327,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-11-24T16:08:35Z",
-      "pushed_at": "2026-11-26T09:52:24Z"
+      "pushed_at": "2026-11-27T08:45:47Z"
     },
     {
       "name": "awesome-dsh-plugin",
